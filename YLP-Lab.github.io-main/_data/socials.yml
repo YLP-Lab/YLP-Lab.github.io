@@ -1,0 +1,11 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: limyoonpin@nbu.edu.cn # your email address
+scholar_userid: -csRnRQAAAAJ # Prof. Lim Yoon Pin Google Scholar ID
+linkedin_username: yoon-pin-lim-b6457417 # Prof. Lim Yoon Pin LinkedIn
+baidu_baike:
+  logo: fa-solid fa-paw
+  title: Baidu Baike
+  url: https://baike.baidu.com/item/%E6%9E%97%E5%85%81%E6%96%8C/64129235
+rss_icon: true # comment this line to hide the RSS icon

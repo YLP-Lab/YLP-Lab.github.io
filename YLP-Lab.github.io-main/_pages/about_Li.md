@@ -1,0 +1,1 @@
+**Li Jiaying** is a Master's student in Basic Medical Sciences at Ningbo University. Her research focuses on advancing fundamental biomedical sciences and exploring key cellular and molecular mechanisms in cancer progression and precision therapeutics.
