@@ -88,7 +88,7 @@ profiles:
     image_circular: false
     more_info: >
       <div class="ylp-member-meta">
-        <div class="ylp-member-name">Dr. Muhammad Wajeeh Us Sima Rathore</div>
+        <div class="ylp-member-name">Dr. Muhammad Wajeeh Us Sima</div>
         <div class="ylp-member-role">Postdoctoral Researcher</div>
         <div class="ylp-member-org">Ningbo University</div>
         <div class="ylp-social-row">
