@@ -39,34 +39,6 @@ profiles:
   # POSTDOCTORAL RESEARCHERS (6 members)
   # ==========================================
   - align: left
-    image: wajeeh.jpg
-    content: about_wajeeh.md
-    image_circular: false
-    more_info: >
-      <div class="ylp-member-meta">
-        <div class="ylp-member-name">Dr. Muhammad Wajeeh Us Sima Rathore</div>
-        <div class="ylp-member-role">Postdoctoral Researcher</div>
-        <div class="ylp-member-org">Ningbo University</div>
-        <div class="ylp-social-row">
-          <a class="ylp-social-icon scholar" href="https://scholar.google.com/citations?user=K1_iHZkAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
-            <i class="ai ai-google-scholar" aria-hidden="true"></i>
-          </a>
-          <a class="ylp-social-icon linkedin" href="https://www.linkedin.com/in/wajeeh-rathore/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a class="ylp-social-icon orcid" href="https://orcid.org/0000-0002-0100-2900" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID">
-            <i class="fa-brands fa-orcid" aria-hidden="true"></i>
-          </a>
-          <a class="ylp-social-icon researchgate" href="https://www.researchgate.net/profile/Muhammad-Wajeeh-Us-Sima" target="_blank" rel="noopener noreferrer" title="ResearchGate" aria-label="ResearchGate">
-            <i class="ai ai-researchgate" aria-hidden="true"></i>
-          </a>
-          <a class="ylp-social-icon email" href="mailto:sima@nbu.edu.cn" title="Email Dr. Wajeeh" aria-label="Email Dr. Wajeeh">
-            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-
-  - align: right
     image: Amir.jpg
     content: about_amir.md
     image_circular: false
@@ -94,7 +66,7 @@ profiles:
         </div>
       </div>
 
-  - align: left
+  - align: right
     image: Tianyu.jpg
     content: about_tianyu.md
     image_circular: false
@@ -105,6 +77,34 @@ profiles:
         <div class="ylp-member-org">Ningbo University</div>
         <div class="ylp-social-row">
           <a class="ylp-social-icon email" href="mailto:nworldjason@163.com" title="Email Dr. Tianyu Ma" aria-label="Email Dr. Tianyu Ma">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+  - align: left
+    image: wajeeh.jpg
+    content: about_wajeeh.md
+    image_circular: false
+    more_info: >
+      <div class="ylp-member-meta">
+        <div class="ylp-member-name">Dr. Muhammad Wajeeh Us Sima Rathore</div>
+        <div class="ylp-member-role">Postdoctoral Researcher</div>
+        <div class="ylp-member-org">Ningbo University</div>
+        <div class="ylp-social-row">
+          <a class="ylp-social-icon scholar" href="https://scholar.google.com/citations?user=K1_iHZkAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </a>
+          <a class="ylp-social-icon linkedin" href="https://www.linkedin.com/in/wajeeh-rathore/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a class="ylp-social-icon orcid" href="https://orcid.org/0000-0002-0100-2900" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID">
+            <i class="fa-brands fa-orcid" aria-hidden="true"></i>
+          </a>
+          <a class="ylp-social-icon researchgate" href="https://www.researchgate.net/profile/Muhammad-Wajeeh-Us-Sima" target="_blank" rel="noopener noreferrer" title="ResearchGate" aria-label="ResearchGate">
+            <i class="ai ai-researchgate" aria-hidden="true"></i>
+          </a>
+          <a class="ylp-social-icon email" href="mailto:sima@nbu.edu.cn" title="Email Dr. Wajeeh" aria-label="Email Dr. Wajeeh">
             <i class="fa-solid fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
