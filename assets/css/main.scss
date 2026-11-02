@@ -1,0 +1,149 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }}
+);
+
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+#search-toggle .nav-link {
+  font-size: 0 !important;
+
+  i {
+    font-size: 1rem !important;
+  }
+}
+
+footer.fixed-bottom {
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease !important;
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  &.ylp-footer-hidden {
+    transform: translateY(120%) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+}
+
+#back-to-top {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  width: 44px !important;
+  height: 44px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: var(--global-theme-color) !important;
+  padding: 0 !important;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s ease, filter 0.25s ease !important;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35));
+
+  &:hover {
+    transform: translateY(-5px) scale(1.1) !important;
+    color: var(--global-hover-color) !important;
+    filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
+  }
+
+  svg {
+    width: 32px !important;
+    height: 32px !important;
+    margin: 0 !important;
+    display: block !important;
+    fill: none !important;
+    stroke: currentColor !important;
+  }
+}
+
+// =============================================================================
+// Mobile Layout Fix (< 768px) for People / Team & Profile Cards
+// =============================================================================
+// Note: tailwind.css declares `@layer components { .float-left { float: left !important; } }`.
+// Per CSS Cascade Layers specification, `!important` rules inside an earlier `@layer`
+// (`@layer base`) beat `@layer components` `!important` rules.
+@layer base {
+  @media (max-width: 767.98px) {
+    .post article .profile,
+    .post article .profile.float-left,
+    .post article .profile.float-right {
+      float: none !important;
+      display: block !important;
+      width: 100% !important;
+      max-width: 300px !important;
+      margin: 0 auto 1.25rem auto !important;
+    }
+
+    .post article .profile figure,
+    .post article .profile picture {
+      display: block !important;
+      width: 100% !important;
+      margin: 0 auto 0.7rem auto !important;
+    }
+
+    .post article .profile img {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin: 0 auto !important;
+    }
+
+    .post article > .clearfix,
+    .post article div.clearfix {
+      clear: both !important;
+      display: block !important;
+      width: 100% !important;
+      float: none !important;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .post article .profile,
+  .post article .profile.float-left,
+  .post article .profile.float-right {
+    float: none !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto 1.25rem auto !important;
+  }
+
+  .post article .profile img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .post article > .clearfix,
+  .post article div.clearfix {
+    clear: both !important;
+    display: block !important;
+    width: 100% !important;
+  }
+}
+

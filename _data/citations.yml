@@ -1,0 +1,267 @@
+metadata:
+  last_updated: '2026-10-30'
+papers:
+  '-csRnRQAAAAJ:pqnbT2bcN3wC':
+    citations: 0
+    title: "WBP2 Attenuates Metformin Response in HER2-Positive Breast Cancer Cells by Repressing AMPK Activation and Inducing a Lower AMP: ATP Ratio State Through Enhanced ATP Production"
+    year: '2026'
+  '-csRnRQAAAAJ:M05iB0D1s5AC':
+    citations: 4
+    title: "Overexpression of DDR1 contributes to gastric cancer progression by inhibiting the Hippo pathway"
+    year: '2025'
+  '-csRnRQAAAAJ:HoB7MX3m0LUC':
+    citations: 1
+    title: "WFIKKN2 is secreted and elevated in blood plasma of HER2-positive breast cancer patients–implications in cancer surveillance and recurrence monitoring"
+    year: '2025'
+  '-csRnRQAAAAJ:ldfaerwXgEUC':
+    citations: 1
+    title: "WBP2 and its network of transcription coregulators in an expanding repertoire of human cancers"
+    year: '2025'
+  '-csRnRQAAAAJ:2P1L_qKh6hAC':
+    citations: 26
+    title: "Genomic, transcriptomic, and metabolomic analysis of Oldenlandia corymbosa reveals the biosynthesis and mode of action of anti‐cancer metabolites"
+    year: '2023'
+  '-csRnRQAAAAJ:ns9cj8rnVeAC':
+    citations: 27
+    title: "WBP2 promotes BTRC mRNA stability to drive migration and invasion in triple‐negative breast cancer via NF‐κB activation"
+    year: '2022'
+  '-csRnRQAAAAJ:NaGl4SEjCO4C':
+    citations: 24
+    title: "Bioorthogonal catalysis for treatment of solid tumors using thermostable, self-assembling, single enzyme nanoparticles and natural product conversion with indole-3-acetic acid"
+    year: '2022'
+  '-csRnRQAAAAJ:YFjsv_pBGBYC':
+    citations: 13
+    title: "WBP2 promotes gastric cancer cell migration via novel targeting of LATS2 kinase in the Hippo tumor suppressor pathway"
+    year: '2021'
+  '-csRnRQAAAAJ:O3NaXMp0MMsC':
+    citations: 8
+    title: "WBP2 inhibits microRNA biogenesis via interaction with the microprocessor complex"
+    year: '2021'
+  '-csRnRQAAAAJ:RGFaLdJalmkC':
+    citations: 6
+    title: "Reciprocal Regulation of Hippo and WBP2 Signalling—Implications in Cancer Therapy"
+    year: '2021'
+  '-csRnRQAAAAJ:JV2RwH3_ST0C':
+    citations: 38
+    title: "The emerging roles of WBP2 oncogene in human cancers"
+    year: '2020'
+  '-csRnRQAAAAJ:BqipwSGYUEgC':
+    citations: 22
+    title: "Hippo/MST blocks breast cancer by downregulating WBP2 oncogene expression via miRNA processor Dicer"
+    year: '2020'
+  '-csRnRQAAAAJ:NMxIlDl6LWMC':
+    citations: 0
+    title: "Signal Transduction of a Novel WBP2 Oncogene"
+    year: '2020'
+  '-csRnRQAAAAJ:M3NEmzRMIkIC':
+    citations: 20
+    title: "Elevated WBP2 expression in HER2-positive breast cancers correlates with sensitivity to trastuzumab-based neoadjuvant therapy: A retrospective and multicentric study"
+    year: '2019'
+  '-csRnRQAAAAJ:blknAaTinKkC':
+    citations: 35
+    title: "The transcriptional coactivator WBP2 primes triple-negative breast cancer cells for responses to Wnt signaling via the JNK/Jun kinase pathway"
+    year: '2018'
+  '-csRnRQAAAAJ:hMod-77fHWUC':
+    citations: 24
+    title: "Phosphorylation of E-box binding USF-1 by PI3K/AKT enhances its transcriptional activation of the WBP2 oncogene in breast cancer cells"
+    year: '2018'
+  '-csRnRQAAAAJ:isC4tDSrTZIC':
+    citations: 9
+    title: "Linc‐9432 is a novel pterygium linc RNA which regulates differentiation of fibroblasts"
+    year: '2018'
+  '-csRnRQAAAAJ:4JMBOYKVnBMC':
+    citations: 136
+    title: "TRPV4 plays a role in breast cancer cell migration via Ca2+-dependent activation of AKT and downregulation of E-cadherin cell cortex protein"
+    year: '2017'
+  '-csRnRQAAAAJ:7PzlFSSx8tAC':
+    citations: 149
+    title: "TRPV4 regulates breast cancer cell extravasation, stiffness and actin cortex"
+    year: '2016'
+  '-csRnRQAAAAJ:TQgYirikUcIC':
+    citations: 89
+    title: "Wnt signaling promotes breast cancer by blocking ITCH-mediated degradation of YAP/TAZ transcriptional coactivator WBP2"
+    year: '2016'
+  '-csRnRQAAAAJ:hFOr9nPyWt4C':
+    citations: 68
+    title: "RNAi reveals phase-specific global regulators of human somatic cell reprogramming"
+    year: '2016'
+  '-csRnRQAAAAJ:_Qo2XoVZTnwC':
+    citations: 16
+    title: "In vitro secretomics study of pterygium-derived fibroblasts by iTRAQ-based quantitative proteomics strategy"
+    year: '2016'
+  '-csRnRQAAAAJ:R3hNpaxXUhUC':
+    citations: 14
+    title: "S100P is Overexpressed in Squamous Cell and Adenosquamous Carcinoma Subtypes of Endometrial Cancer and Promotes Cancer Cell Proliferation and Invasion"
+    year: '2016'
+  '-csRnRQAAAAJ:ZeXyd9-uunAC':
+    citations: 11
+    title: "Proteomic profiling predicts drug response to novel targeted anticancer therapeutics"
+    year: '2016'
+  '-csRnRQAAAAJ:RHpTSmoSYBkC':
+    citations: 6
+    title: "Comparative Proteomic Profiling of Extracellular Proteins between Normal and Gastric Cancer Cells"
+    year: '2016'
+  '-csRnRQAAAAJ:4TOpqqG69KYC':
+    citations: 120
+    title: "DLAT subunit of the pyruvate dehydrogenase complex is upregulated in gastric cancer-implications in cancer therapy"
+    year: '2015'
+  '-csRnRQAAAAJ:4DMP91E08xMC':
+    citations: 63
+    title: "USP15 regulates SMURF2 kinetics through C-lobe mediated deubiquitination"
+    year: '2015'
+  '-csRnRQAAAAJ:aqlVkmm33-oC':
+    citations: 33
+    title: "Cep68 can be regulated by Nek2 and SCF complex"
+    year: '2015'
+  '-csRnRQAAAAJ:MXK_kJrjxJIC':
+    citations: 169
+    title: "DEAD-box helicase DP103 defines metastatic potential of human breast cancers"
+    year: '2014'
+  '-csRnRQAAAAJ:Se3iqnhoufwC':
+    citations: 135
+    title: "EZH2-mediated inactivation of IFN-γ-JAK-STAT1 signaling is an effective therapeutic target in MYC-driven prostate cancer"
+    year: '2014'
+  '-csRnRQAAAAJ:8k81kl-MbHgC':
+    citations: 62
+    title: "Human finger-prick induced pluripotent stem cells facilitate the development of stem cell banking"
+    year: '2014'
+  '-csRnRQAAAAJ:HDshCWvjkbEC':
+    citations: 61
+    title: "CXCL3 is a potential target for breast cancer metastasis"
+    year: '2014'
+  '-csRnRQAAAAJ:YOwf2qJgpHMC':
+    citations: 35
+    title: "Evaluation of global differential gene and protein expression in primary pterygium: S100A8 and S100A9 as possible drivers of a signaling network"
+    year: '2014'
+  '-csRnRQAAAAJ:M3ejUd6NZC8C':
+    citations: 6
+    title: "The use of transformed IMR90 cell model to identify the potential extra-telomeric effects of hTERT in cell migration and DNA damage response"
+    year: '2014'
+  '-csRnRQAAAAJ:qxL8FJ1GzNcC':
+    citations: 6
+    title: "Divide and conquer: subproteomic approaches toward gastric cancer biomarker and drug target discovery"
+    year: '2014'
+  '-csRnRQAAAAJ:2osOgNQ5qMEC':
+    citations: 175
+    title: "Recent advances in mass spectrometry: data independent analysis and hyper reaction monitoring"
+    year: '2013'
+  '-csRnRQAAAAJ:3fE2CSJIrl8C':
+    citations: 61
+    title: "Identification of autocrine growth factors secreted by CHO cells for applications in single-cell cloning media"
+    year: '2013'
+  '-csRnRQAAAAJ:roLk4NBRz8UC':
+    citations: 84
+    title: "Structure of a novel phosphotyrosine‐binding domain in Hakai that targets E‐cadherin"
+    year: '2012'
+  '-csRnRQAAAAJ:0EnyYjriUFMC':
+    citations: 71
+    title: "Discovery of SLC3A2 cell membrane protein as a potential gastric cancer biomarker: implications in molecular imaging"
+    year: '2012'
+  '-csRnRQAAAAJ:_kc_bZDykSQC':
+    citations: 26
+    title: "EGFR S1166 phosphorylation induced by a combination of EGF and gefitinib has a potentially negative impact on lung cancer cell growth"
+    year: '2012'
+  '-csRnRQAAAAJ:UebtZRa9Y70C':
+    citations: 65
+    title: "Tyrosine phosphorylation of transcriptional coactivator WW-domain binding protein 2 regulates estrogen receptor α function in breast cancer via the Wnt pathway"
+    year: '2011'
+  '-csRnRQAAAAJ:Wp0gIr-vW9MC':
+    citations: 14
+    title: "Elevated NRD1 metalloprotease expression plays a role in breast cancer growth and proliferation"
+    year: '2011'
+  '-csRnRQAAAAJ:9ZlFYXVOiuMC':
+    citations: 1
+    title: "Biological models of breast cancer: one size does not fit all"
+    year: '2011'
+  '-csRnRQAAAAJ:qUcmZB5y_30C':
+    citations: 0
+    title: "Hemoglobin subunit beta (HBB) is a potential biomarker for predicting response to Gefitinib in NSCLC patients"
+    year: '2011'
+  '-csRnRQAAAAJ:mB3voiENLucC':
+    citations: 115
+    title: "Cathepsin S mediates gastric cancer cell migration and invasion via a putative network of metastasis-associated proteins"
+    year: '2010'
+  '-csRnRQAAAAJ:zYLM7Y9cAGgC':
+    citations: 102
+    title: "ITIH3 is a potential biomarker for early detection of gastric cancer"
+    year: '2010'
+  '-csRnRQAAAAJ:W7OEmFMy1HYC':
+    citations: 84
+    title: "Upregulation of plasma C9 protein in gastric cancer patients"
+    year: '2010'
+  '-csRnRQAAAAJ:ufrVoPGSRksC':
+    citations: 71
+    title: "Reduced plasma APOA1 level is associated with gastric tumor growth in MKN45 mouse xenograft model"
+    year: '2010'
+  '-csRnRQAAAAJ:LkGwnXOMwfcC':
+    citations: 59
+    title: "Proteome-wide profiling of the MCF10AT breast cancer progression model"
+    year: '2010'
+  '-csRnRQAAAAJ:kNdYIx-mwKoC':
+    citations: 14
+    title: "EGF-induced tyrosine phosphorylation of Endofin is dependent on PI3K activity and proper localization to endosomes"
+    year: '2010'
+  '-csRnRQAAAAJ:u-x6o8ySG0sC':
+    citations: 153
+    title: "Novel breast cancer metastasis-associated proteins"
+    year: '2009'
+  '-csRnRQAAAAJ:hqOjcs7Dif8C':
+    citations: 24
+    title: "Regulation of macrophage inhibitory factor (MIF) by epidermal growth factor receptor (EGFR) in the MCF10AT model of breast cancer progression"
+    year: '2009'
+  '-csRnRQAAAAJ:WF5omc3nYNoC':
+    citations: 46
+    title: "Phosphoproteomics, oncogenic signaling and cancer research"
+    year: '2008'
+  '-csRnRQAAAAJ:_FxGoFyzp5QC':
+    citations: 43
+    title: "Synergistic antileukemic effects between ABT-869 and chemotherapy involve downregulation of cell cycle-regulated genes and c-Mos-mediated MAPK pathway"
+    year: '2008'
+  '-csRnRQAAAAJ:u5HHmVD_uO8C':
+    citations: 180
+    title: "Differential expression of novel tyrosine kinase substrates during breast cancer development"
+    year: '2007'
+  '-csRnRQAAAAJ:eQOLeE2rZwMC':
+    citations: 79
+    title: "Phosphoproteomics identified Endofin, DCBLD2, and KIAA0582 as novel tyrosine phosphorylation targets of EGF signaling and Iressa in human cancer cells"
+    year: '2007'
+  '-csRnRQAAAAJ:5nxA0vEk-isC':
+    citations: 34
+    title: "Progressive loss of epidermal growth factor receptor in a subpopulation of breast cancers: implications in target-directed therapeutics"
+    year: '2007'
+  '-csRnRQAAAAJ:d1gkVwhDpl0C':
+    citations: 134
+    title: "Mining the tumor phosphoproteome for cancer markers"
+    year: '2005'
+  '-csRnRQAAAAJ:Y0pCki6q_DkC':
+    citations: 54
+    title: "Selective tyrosine hyperphosphorylation of cytoskeletal and stress proteins in primary human breast cancers implications for adjuvant use of kinase-inhibitory drugs"
+    year: '2004'
+  '-csRnRQAAAAJ:qjMakFHDy7sC':
+    citations: 63
+    title: "Phosphoproteomic fingerprinting of epidermal growth factor signaling and anticancer drug action in human tumor cells"
+    year: '2003'
+  '-csRnRQAAAAJ:IjCSPb-OGe4C':
+    citations: 60
+    title: "Tyrosine phosphorylation of the Bcl-2-associated protein BNIP-2 by fibroblast growth factor receptor-1 prevents its binding to Cdc42GAP and Cdc42"
+    year: '1999'
+  '-csRnRQAAAAJ:YsMSGLbcyi4C':
+    citations: 49
+    title: "Association of atypical protein kinase C isotypes with the docker protein FRS2 in fibroblast growth factor signaling"
+    year: '1999'
+  '-csRnRQAAAAJ:UeHWp8X0CEIC':
+    citations: 70
+    title: "SHP2 associates directly with tyrosine phosphorylated p90 (SNT) protein in FGF-stimulated cells"
+    year: '1997'
+  '-csRnRQAAAAJ:KlAtU1dfN6UC':
+    citations: 7
+    title: "Growth factors stimulate tyrosine dephosphorylation of p75 and its dissociation from the SH2 domain of Grb2"
+    year: '1997'
+  '-csRnRQAAAAJ:9yKSN-GCB0IC':
+    citations: 92
+    title: "Identification of p90, a prominent tyrosine-phosphorylated protein in fibroblast growth factor-stimulated cells, as 80K-H"
+    year: '1996'
+  '-csRnRQAAAAJ:Tyk-4Ss8FVUC':
+    citations: 51
+    title: "Suc1-associated neurotrophic factor target (SNT) protein is a major FGF-stimulated tyrosine phosphorylated 90-kDa protein which binds to the SH2 domain of GRB2"
+    year: '1996'
