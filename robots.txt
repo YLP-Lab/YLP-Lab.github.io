@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ylp-lab.github.io/YPLab.github.io/sitemap.xml
+Sitemap: https://YLP-Lab.github.io/sitemap.xml
