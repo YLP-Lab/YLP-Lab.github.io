@@ -35,7 +35,9 @@
   }
 }
 
-footer.fixed-bottom {
+footer.fixed-bottom,
+footer.sticky-bottom {
+  display: none !important;
   transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease !important;
   transform: translateY(0) !important;
   opacity: 1 !important;
@@ -146,4 +148,90 @@ footer.fixed-bottom {
     width: 100% !important;
   }
 }
+
+/* Navbar Brand & Logo Styling */
+body.fixed-top-nav {
+  padding-top: 68px !important;
+}
+
+nav#navbar {
+  padding-top: 0.45rem !important;
+  padding-bottom: 0.45rem !important;
+}
+
+.navbar-brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  font-size: 1.45rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.015em !important;
+  line-height: 1.2 !important;
+  padding-top: 0.15rem !important;
+  padding-bottom: 0.15rem !important;
+  margin-right: 1.5rem !important;
+
+  .font-weight-bold {
+    font-size: 1.45rem !important;
+    font-weight: 700 !important;
+  }
+
+  .ylp-navbar-logo {
+    height: 48px !important;
+    width: 48px !important;
+    max-width: 54px !important;
+    object-fit: contain !important;
+    border-radius: 8px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    flex-shrink: 0 !important;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover .ylp-navbar-logo {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.fixed-top-nav {
+    padding-top: 62px !important;
+  }
+
+  nav#navbar {
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.35rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.22rem !important;
+    gap: 0.55rem !important;
+
+    .font-weight-bold {
+      font-size: 1.22rem !important;
+    }
+
+    .ylp-navbar-logo {
+      height: 40px !important;
+      width: 40px !important;
+      max-width: 44px !important;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 1.05rem !important;
+
+    .font-weight-bold {
+      font-size: 1.05rem !important;
+    }
+
+    .ylp-navbar-logo {
+      height: 35px !important;
+      width: 35px !important;
+    }
+  }
+}
+
 

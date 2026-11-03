@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed publications by Prof. Lim Yoon Pin and the YLP Lab in reversed chronological order.
+description: Peer-reviewed publications by Prof. Lim Yoon Pin and the YPLab in reversed chronological order.
 nav: true
 nav_order: 2
 ---

@@ -2,14 +2,14 @@
 layout: page
 permalink: /people/
 title: people
-description: Members of the Cancer Precision Medicine & Translational Oncology Laboratory (YLP Lab) at the Health Science Center, Ningbo University.
+description: Members of the Cancer Precision Medicine & Translational Oncology Laboratory (YPLab) at the Health Science Center, Ningbo University.
 nav: true
 nav_order: 6
 ---
 
 <style>
   /* ==========================================================================
-     YLP Lab - Interactive Academic "People" Webpage (Website Theme Adaptive)
+     YPLab - Interactive Academic "People" Webpage (Website Theme Adaptive)
      ========================================================================== */
   #search-toggle .nav-link {
     font-size: 0 !important;
@@ -553,7 +553,7 @@ nav_order: 6
           <div class="ylp-tpl-data"
                data-name="Prof. Lim Yoon Pin"
                data-role="Principal Investigator"
-               data-org="Department of Biochemistry &amp; Molecular Biology, Health Science Center, Ningbo University"
+               data-org="Health Science Center, Ningbo University"
                data-img="{{ '/assets/img/prof_pic.jpg' | relative_url }}">
             <div class="ylp-tpl-socials">
               <a class="ylp-social-icon scholar" href="https://scholar.google.com/citations?user=-csRnRQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
@@ -570,7 +570,7 @@ nav_order: 6
               </a>
             </div>
             <div class="ylp-tpl-bio">
-              <p><strong>Prof. Lim Yoon Pin</strong> is a Singapore borned, internationally recognized expert in oncology with over 20 years of experience in molecular, translational, and clinical cancer research at the Department of Biochemistry &amp; Molecular Biology, Health Science Center, Ningbo University. He was accorded the <strong>Yangtze River Scholar</strong> title, the highest academic honor awarded by China's Ministry of Education. His work focuses on <strong>phosphoproteomics</strong>, the <strong>WBP2 oncogene</strong>, and <strong>precision cancer diagnostics</strong>.</p>
+              <p><strong>Prof. Lim Yoon Pin</strong> is a Singapore borned, internationally recognized expert in oncology with over 20 years of experience in molecular, translational, and clinical cancer research at the Health Science Center, Ningbo University. He was accorded the <strong>Yangtze River Scholar</strong> title, the highest academic honor awarded by China's Ministry of Education. His work focuses on <strong>phosphoproteomics</strong>, the <strong>WBP2 oncogene</strong>, and <strong>precision cancer diagnostics</strong>.</p>
               <p>Previously, Prof. Lim served as Director &amp; PI of the Molecular &amp; Translational Cancer Research Centre in Ningbo and for 16 years on the faculty at the National University of Singapore (NUS), where he also directed the Mass Spectrometry Facility, after completing postdoctoral fellowships at the <strong>Dana-Farber Cancer Institute, Harvard Medical School</strong> and the <strong>National Cancer Centre Singapore</strong>. He has secured <strong>&gt;$8 Million USD</strong> as PI and <strong>&gt;$22 Million USD</strong> as Co-I, holds <strong>&gt;10 international patents</strong> (with 4 patented technologies out-licensed), mentored <strong>&gt;100 researchers</strong>, and authored <strong>~70 peer-reviewed papers</strong> in top-tier journals including <em>EMBO Journal</em>, <em>Journal of Clinical Investigation</em>, <em>Cancer Research</em>, <em>Clinical Cancer Research</em>, <em>ACS Nano</em>, and <em>Oncogene</em>.</p>
             </div>
           </div>

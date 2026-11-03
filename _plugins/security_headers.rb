@@ -41,5 +41,28 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
     end
   end
 
+  # 4. Inject Logo into Navbar brand on all pages (left side of header)
+  if output.include?('id="navbar"')
+    base = doc.site.config["baseurl"].to_s.chomp("/")
+    logo_src = "#{base}/assets/img/Logo.png"
+    logo_img = %Q{<img src="#{logo_src}" alt="YPLab Logo" class="ylp-navbar-logo">}
+
+    if output.include?('class="navbar-brand')
+      output = output.sub(/(<a\s+class="navbar-brand[^>]*>)(?!\s*<img[^>]*class="ylp-navbar-logo)/, "\\1#{logo_img}")
+    else
+      home_url = base.empty? ? "/" : "#{base}/"
+      brand_html = %Q{<a class="navbar-brand title font-weight-lighter" href="#{home_url}">#{logo_img}<span class="font-weight-bold">Prof. Lim Yoon Pin</span></a>}
+      output = output.sub(/(<nav[^>]*id="navbar"[^>]*>\s*<div class="container">\s*)(<!-- Navbar Toggle -->|<button)/m, "\\1#{brand_html}\n      \\2")
+    end
+  end
+
+  # 5. Force fresh favicon links on all pages to immediately bust browser tab caches
+  fav_url = "#{doc.site.config["baseurl"].to_s.chomp("/")}/assets/img/Logo.png?v=20261103_2"
+  fav_tags = %Q{<link rel="shortcut icon" href="#{fav_url}">\n  <link rel="icon" type="image/png" sizes="32x32" href="#{fav_url}">\n  <link rel="icon" type="image/png" sizes="16x16" href="#{fav_url}">\n  <link rel="apple-touch-icon" href="#{fav_url}">}
+  output = output.gsub(/<link\s+rel="shortcut icon"[^>]*>/i, "")
+  output = output.gsub(/<link\s+rel="icon"[^>]*>/i, "")
+  output = output.gsub(/<link\s+rel="apple-touch-icon"[^>]*>/i, "")
+  output = output.sub("<head>", "<head>\n  #{fav_tags}")
+
   doc.output = output
 end

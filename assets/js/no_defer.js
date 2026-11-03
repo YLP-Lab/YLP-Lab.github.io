@@ -88,46 +88,53 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 5. Auto-hide bottom footer after 2 seconds of scroll inactivity across desktop, tablet, and mobile
+  // 5. Keep bottom footer only on the main page (/), remove from all other pages
   const footer = document.querySelector("footer.fixed-bottom, footer.sticky-bottom");
   if (footer) {
-    let hideFooterTimer = null;
-    const getScrollTop = () =>
-      window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    let lastScrollY = getScrollTop();
+    const cleanPath = window.location.pathname.replace(/\/index\.html$/, "/");
+    const isMainPage = cleanPath === "/" || cleanPath === "/al-folio/";
 
-    const scheduleFooterHide = () => {
-      if (hideFooterTimer) {
-        clearTimeout(hideFooterTimer);
-      }
-      hideFooterTimer = setTimeout(() => {
-        footer.classList.add("ylp-footer-hidden");
-      }, 2000);
-    };
+    if (!isMainPage) {
+      footer.remove();
+    } else {
+      let hideFooterTimer = null;
+      const getScrollTop = () =>
+        window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      let lastScrollY = getScrollTop();
 
-    const showAndScheduleFooter = () => {
-      const currentScrollY = getScrollTop();
-      if (currentScrollY > lastScrollY + 1) {
-        footer.classList.remove("ylp-footer-hidden");
-      }
-      lastScrollY = currentScrollY;
-      scheduleFooterHide();
-    };
+      const scheduleFooterHide = () => {
+        if (hideFooterTimer) {
+          clearTimeout(hideFooterTimer);
+        }
+        hideFooterTimer = setTimeout(() => {
+          footer.classList.add("ylp-footer-hidden");
+        }, 2000);
+      };
 
-    // Hide automatically 2 seconds after initial load
-    scheduleFooterHide();
-
-    window.addEventListener("scroll", showAndScheduleFooter, { passive: true });
-    document.addEventListener("scroll", showAndScheduleFooter, { passive: true });
-    window.addEventListener(
-      "touchmove",
-      () => {
-        footer.classList.remove("ylp-footer-hidden");
+      const showAndScheduleFooter = () => {
+        const currentScrollY = getScrollTop();
+        if (currentScrollY > lastScrollY + 1) {
+          footer.classList.remove("ylp-footer-hidden");
+        }
+        lastScrollY = currentScrollY;
         scheduleFooterHide();
-      },
-      { passive: true }
-    );
-    window.addEventListener("touchend", scheduleFooterHide, { passive: true });
+      };
+
+      // Hide automatically 2 seconds after initial load
+      scheduleFooterHide();
+
+      window.addEventListener("scroll", showAndScheduleFooter, { passive: true });
+      document.addEventListener("scroll", showAndScheduleFooter, { passive: true });
+      window.addEventListener(
+        "touchmove",
+        () => {
+          footer.classList.remove("ylp-footer-hidden");
+          scheduleFooterHide();
+        },
+        { passive: true }
+      );
+      window.addEventListener("touchend", scheduleFooterHide, { passive: true });
+    }
   }
 
   // 6. Upgrade #back-to-top circular button into a sleek upward arrow sign
@@ -147,4 +154,52 @@ document.addEventListener("DOMContentLoaded", () => {
   upgradeBackToTopArrow();
   window.addEventListener("load", upgradeBackToTopArrow);
   setTimeout(upgradeBackToTopArrow, 300);
+
+  // 7. Ensure Navbar Brand Logo is present on all pages (left side of header)
+  const ensureNavbarLogo = () => {
+    const navContainer = document.querySelector("#navbar .container");
+    if (!navContainer) return;
+
+    let brand = navContainer.querySelector(".navbar-brand");
+    const logoSrc = "/assets/img/Logo.png";
+
+    if (!brand) {
+      brand = document.createElement("a");
+      brand.className = "navbar-brand title font-weight-lighter";
+      brand.href = "/";
+      brand.innerHTML = '<img src="' + logoSrc + '" alt="YPLab Logo" class="ylp-navbar-logo"><span class="font-weight-bold">Prof. Lim Yoon Pin</span>';
+      navContainer.insertBefore(brand, navContainer.firstChild);
+    } else {
+      if (!brand.querySelector(".ylp-navbar-logo")) {
+        const img = document.createElement("img");
+        img.className = "ylp-navbar-logo";
+        img.src = logoSrc;
+        img.alt = "YPLab Logo";
+        brand.insertBefore(img, brand.firstChild);
+      }
+    }
+  };
+
+  ensureNavbarLogo();
+  window.addEventListener("load", ensureNavbarLogo);
+
+  // 8. Dynamic Favicon cache-buster to ensure browser tab icon is always fresh
+  const refreshFavicon = () => {
+    const freshFaviconUrl = "/assets/img/Logo.png?v=20261103_2";
+    const existingIcons = document.querySelectorAll("link[rel*='icon']");
+    existingIcons.forEach((el) => {
+      el.href = freshFaviconUrl;
+    });
+
+    if (existingIcons.length === 0) {
+      const link = document.createElement("link");
+      link.rel = "icon";
+      link.type = "image/png";
+      link.href = freshFaviconUrl;
+      document.head.appendChild(link);
+    }
+  };
+
+  refreshFavicon();
+  window.addEventListener("load", refreshFavicon);
 });

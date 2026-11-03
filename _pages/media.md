@@ -2,7 +2,7 @@
 layout: page
 permalink: /media/
 title: media
-description: Special events, member milestones, defense announcements, and success stories from the YLP Lab at Health Science Center, Ningbo University.
+description: Special events, member milestones, defense announcements, and success stories from the YPLab at Health Science Center, Ningbo University.
 nav: true
 nav_order: 7
 ---
@@ -287,6 +287,14 @@ nav_order: 7
     grid-template-columns: repeat(2, 1fr);
     gap: 1.15rem;
   }
+  .ylp-media-gallery.single-item {
+    grid-template-columns: 1fr;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .ylp-media-gallery.single-item .ylp-gallery-img-wrap {
+    aspect-ratio: 3 / 2;
+  }
   .ylp-gallery-item {
     margin: 0;
     background: var(--global-bg-color);
@@ -349,7 +357,7 @@ nav_order: 7
     <div class="ylp-media-banner-content">
       <div class="ylp-media-banner-label">Lab News, Milestones &amp; Success Stories</div>
       <p class="ylp-media-banner-text">
-        Celebrating key events, postdoctoral and graduate defenses, high-impact publications, patent milestones, and career achievements by members of the <strong>YLP Lab</strong> at Health Science Center, Ningbo University.
+        Celebrating key events, postdoctoral and graduate defenses, high-impact publications, patent milestones, and career achievements by members of the <strong>YPLab</strong> at Health Science Center, Ningbo University.
       </p>
     </div>
     <div class="ylp-media-tags">
@@ -368,7 +376,52 @@ nav_order: 7
   </div>
 
   <div class="ylp-media-feed">
-    <!-- Post 1: March 6, 2026 -->
+    <!-- Post 1: July 2026 - Bao Yu Gan Distinguished Professor Appointment -->
+    <article class="ylp-media-card" id="bao-yu-gan-appointment-2026-07">
+      <div class="ylp-post-meta">
+        <div class="ylp-post-badges">
+          <span class="ylp-post-category">
+            <i class="fa-solid fa-award" aria-hidden="true"></i> Faculty Milestone
+          </span>
+          <span class="ylp-post-highlight-badge">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Bao Yu Gan Distinguished Professor (包玉刚学者)
+          </span>
+        </div>
+        <time class="ylp-post-date" datetime="2026-07">
+          <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> July 2026
+        </time>
+      </div>
+
+      <h3 class="ylp-post-title">
+        Prof. Lim Yoon Pin Appointed as Bao Yu Gan Distinguished Professor (包玉刚学者) at Ningbo University
+      </h3>
+
+      <div class="ylp-post-body">
+        <p>
+          Prof. Lim Yoon Pin, a Yangtze River Chair Scholar awarded by China's Ministry of Education, is an internationally recognized authority in molecular oncology and precision diagnostics. Appointed as a Bao Yu Gan Distinguished Professor (包玉刚学者) with an official award certificate presented by Vice President Prof. Wang Qingqing, he brings over two decades of research excellence to Ningbo University. His pioneering work in phosphoproteomics and the landmark discovery of the WBP2 oncogene continue to drive breakthroughs in early cancer detection, biomarker discovery, and targeted therapies.
+        </p>
+      </div>
+
+      <!-- Photo Gallery (Single Highlight Image) -->
+      <div class="ylp-media-gallery single-item">
+        <figure class="ylp-gallery-item">
+          <div class="ylp-gallery-img-wrap">
+            <img
+              src="/assets/img/bao-yu-gan.jpg"
+              alt="Vice President Prof. Wang Qingqing presenting the Bao Yu Gan Distinguished Professor (包玉刚学者) appointment certificate to Prof. Lim Yoon Pin"
+              data-zoomable
+              loading="eager"
+            >
+          </div>
+          <figcaption class="ylp-gallery-caption">
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            <span>Official Appointment Ceremony: Ningbo University Vice President <strong>Prof. Wang Qingqing</strong> presents the <strong>Bao Yu Gan Distinguished Professor (包玉刚学者)</strong> appointment certificate to <strong>Prof. Lim Yoon Pin</strong>.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Post 2: March 6, 2026 -->
     <article class="ylp-media-card" id="postdoc-completion-2026-03-06">
       <div class="ylp-post-meta">
         <div class="ylp-post-badges">

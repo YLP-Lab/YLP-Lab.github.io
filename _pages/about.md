@@ -6,7 +6,7 @@ subtitle: >
   <span class="ylp-role-badge">Yangtze River Chair Scholar</span>
   <span class="ylp-role-sep">|</span>
   <span class="ylp-role-badge">Bao Yu Gan Distinguished Professor</span><br>
-  <a href="https://medicine.nbu.edu.cn/" target="_blank" rel="noopener">Department of Biochemistry &amp; Molecular Biology, Health Science Center, Ningbo University</a>
+  <a href="https://medicine.nbu.edu.cn/" target="_blank" rel="noopener">Health Science Center, Ningbo University</a>
 
 profile:
   align: right
@@ -15,7 +15,7 @@ profile:
   more_info: >
     <div class="ylp-profile-meta">
       <div class="ylp-profile-name">Prof. Lim Yoon Pin</div>
-      <div class="ylp-profile-dept">Department of Biochemistry &amp; Molecular Biology<br>Health Science Center, Ningbo University</div>
+      <div class="ylp-profile-dept">Health Science Center, Ningbo University</div>
       <div class="ylp-profile-loc"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Ningbo, Zhejiang, China</div>
       <div class="ylp-social-row" aria-label="Prof. Lim Yoon Pin Academic and Social Links">
         <a class="ylp-social-icon scholar" href="https://scholar.google.com/citations?user=-csRnRQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
@@ -49,6 +49,10 @@ latest_posts:
 
 <style>
   /* Scoped Homepage Redesign Styles (Light & Dark Theme Compatible) */
+  footer.fixed-bottom,
+  footer.sticky-bottom {
+    display: block !important;
+  }
   .post-header {
     margin-bottom: 1.75rem;
     padding-bottom: 1.25rem;
@@ -628,7 +632,7 @@ latest_posts:
       <div class="ylp-appt-card">
         <div class="ylp-appt-role">Bao Yu Gan (包玉刚) Distinguished Faculty</div>
         <p class="ylp-appt-org">
-          Dept. of Biochemistry &amp; Molecular Biology, School of Basic Medical Sciences, Health Science Center, Ningbo University
+          School of Basic Medical Sciences, Health Science Center, Ningbo University
         </p>
       </div>
       <div class="ylp-appt-card">

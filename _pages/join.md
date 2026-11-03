@@ -2,7 +2,7 @@
 layout: page
 permalink: /join/
 title: join us
-description: Join Our Research Group — Opportunities for Postdoctoral Fellows and Ph.D. Candidates at the YLP Lab, Ningbo University.
+description: Join Our Research Group — Opportunities for Postdoctoral Fellows and Ph.D. Candidates at the YPLab, Ningbo University.
 nav: true
 nav_order: 8
 ---
