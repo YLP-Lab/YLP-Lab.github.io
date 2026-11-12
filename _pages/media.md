@@ -376,7 +376,52 @@ nav_order: 7
   </div>
 
   <div class="ylp-media-feed">
-    <!-- Post 1: July 2026 - Bao Yu Gan Distinguished Professor Appointment -->
+    <!-- Post 1: November 2026 - Academic Committee Appointment -->
+    <article class="ylp-media-card" id="academic-committee-appointment-2026-11">
+      <div class="ylp-post-meta">
+        <div class="ylp-post-badges">
+          <span class="ylp-post-category">
+            <i class="fa-solid fa-landmark" aria-hidden="true"></i> Governance &amp; Leadership
+          </span>
+          <span class="ylp-post-highlight-badge">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Academic Committee (学术委员会)
+          </span>
+        </div>
+        <time class="ylp-post-date" datetime="2026-11">
+          <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> November 2026
+        </time>
+      </div>
+
+      <h3 class="ylp-post-title">
+        Ningbo University Health Science Centre Appoints Academic Committee
+      </h3>
+
+      <div class="ylp-post-body">
+        <p>
+          Ningbo University Health Science Centre appointed its Academic Committee in November 2026; the senior governance body oversees academic decision-making, research planning, review, consultation and coordination, reinforcing the Centre's commitment to academic excellence and strategic development.
+        </p>
+      </div>
+
+      <!-- Photo Gallery (Single Highlight Image) -->
+      <div class="ylp-media-gallery single-item">
+        <figure class="ylp-gallery-item">
+          <div class="ylp-gallery-img-wrap">
+            <img
+              src="/assets/img/appointment.jpg"
+              alt="Ningbo University Health Science Centre Academic Committee appointment ceremony"
+              data-zoomable
+              loading="eager"
+            >
+          </div>
+          <figcaption class="ylp-gallery-caption">
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            <span>Ningbo University Health Science Centre Academic Committee official appointment ceremony (November 2026).</span>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Post 2: July 2026 - Bao Yu Gan Distinguished Professor Appointment -->
     <article class="ylp-media-card" id="bao-yu-gan-appointment-2026-07">
       <div class="ylp-post-meta">
         <div class="ylp-post-badges">
