@@ -384,21 +384,21 @@ nav_order: 7
             <i class="fa-solid fa-landmark" aria-hidden="true"></i> Governance &amp; Leadership
           </span>
           <span class="ylp-post-highlight-badge">
-            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Academic Committee (学术委员会)
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Sixth Academic Committee (第六届学术委员会)
           </span>
         </div>
-        <time class="ylp-post-date" datetime="2026-11">
+        <time class="ylp-post-date" datetime="2026-11-10">
           <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> November 2026
         </time>
       </div>
 
       <h3 class="ylp-post-title">
-        Ningbo University Health Science Centre Appoints Academic Committee
+        Appointed to the Sixth Academic Committee of Ningbo University School of Medicine
       </h3>
 
       <div class="ylp-post-body">
         <p>
-          Ningbo University Health Science Centre appointed its Academic Committee in November 2026; the senior governance body oversees academic decision-making, research planning, review, consultation and coordination, reinforcing the Centre's commitment to academic excellence and strategic development.
+          On November 10, 2026, Prof. Lim Yoon Pin was formally appointed as one of the 18 members of the sixth Academic Committee (学术委员会) of the Ningbo University School of Medicine during an official ceremony held in the Wang Changlai Building. Attended by Vice President Prof. Wang Qingqing and presided over by Committee Director Prof. Shen Haowei, the ceremony saw Prof. Lim appointed alongside four fellow professors representing the School of Basic Medical Sciences, uniting leaders across basic medicine, clinical medicine, public health, and pharmacy. As the School’s senior governance body, the committee oversees academic evaluation, discipline development, talent recruitment, and postgraduate training reinforcing Ningbo University’s commitment to academic excellence and strategic research planning.
         </p>
       </div>
 
@@ -408,20 +408,20 @@ nav_order: 7
           <div class="ylp-gallery-img-wrap">
             <img
               src="/assets/img/appointment.jpg"
-              alt="Ningbo University Health Science Centre Academic Committee appointment ceremony"
+              alt="Sixth Academic Committee appointment ceremony at Ningbo University School of Medicine"
               data-zoomable
               loading="eager"
             >
           </div>
           <figcaption class="ylp-gallery-caption">
             <i class="fa-solid fa-camera" aria-hidden="true"></i>
-            <span>Ningbo University Health Science Centre Academic Committee official appointment ceremony (November 2026).</span>
+            <span>Sixth Academic Committee Official Appointment Ceremony: Ningbo University School of Medicine convenes in the Wang Changlai Building (November 10, 2026).</span>
           </figcaption>
         </figure>
       </div>
     </article>
 
-    <!-- Post 2: July 2026 - Bao Yu Gan Distinguished Professor Appointment -->
+    <!-- Post 2: July 2026 - Bao Yu Gan Distinguished Professor & A2-Level High-Level Talent -->
     <article class="ylp-media-card" id="bao-yu-gan-appointment-2026-07">
       <div class="ylp-post-meta">
         <div class="ylp-post-badges">
@@ -429,44 +429,119 @@ nav_order: 7
             <i class="fa-solid fa-award" aria-hidden="true"></i> Faculty Milestone
           </span>
           <span class="ylp-post-highlight-badge">
-            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Bao Yu Gan Distinguished Professor (包玉刚学者)
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i> Bao Yu Gan Distinguished Professor &amp; A2-Level High-Level Talent
           </span>
         </div>
-        <time class="ylp-post-date" datetime="2026-07">
+        <time class="ylp-post-date" datetime="2026-07-09">
           <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> July 2026
         </time>
       </div>
 
       <h3 class="ylp-post-title">
-        Prof. Lim Yoon Pin Appointed as Bao Yu Gan Distinguished Professor (包玉刚学者) at Ningbo University
+        Prof. Lim Yoon Pin Inducted as Bao Yu Gan Distinguished Professor &amp; A2-Level High-Level Talent
       </h3>
 
       <div class="ylp-post-body">
         <p>
-          Prof. Lim Yoon Pin, a Yangtze River Chair Scholar awarded by China's Ministry of Education, is an internationally recognized authority in molecular oncology and precision diagnostics. Appointed as a Bao Yu Gan Distinguished Professor (包玉刚学者) with an official award certificate presented by Vice President Prof. Wang Qingqing, he brings over two decades of research excellence to Ningbo University. His pioneering work in phosphoproteomics and the landmark discovery of the WBP2 oncogene continue to drive breakthroughs in early cancer detection, biomarker discovery, and targeted therapies.
+          On July 9, 2026, Prof. Lim Yoon Pin (Lin Yunbin) was formally inducted as a Bao Yu Gan Distinguished Professor (包玉刚学者) and an A2-level high-level talent during the Ningbo University School of Medicine’s 2026 New Faculty Induction Ceremony, receiving his official appointment letter from Vice President Prof. Wang Qingqing. A Yangtze River Chair Scholar and globally recognized authority in molecular oncology, Prof. Lim brings over two decades of expertise in phosphoproteomics and his landmark discovery of the WBP2 oncogene to strengthen the School’s "Medical Peak" initiative. In his new role, his laboratory will continue driving breakthroughs in early cancer detection, biomarker discovery, and targeted therapies while advancing interdisciplinary research and talent cultivation at Ningbo University.
         </p>
       </div>
 
-      <!-- Photo Gallery (Single Highlight Image) -->
-      <div class="ylp-media-gallery single-item">
+      <!-- Photo Gallery (2 Images) -->
+      <div class="ylp-media-gallery">
         <figure class="ylp-gallery-item">
           <div class="ylp-gallery-img-wrap">
             <img
               src="/assets/img/bao-yu-gan.jpg"
-              alt="Vice President Prof. Wang Qingqing presenting the Bao Yu Gan Distinguished Professor (包玉刚学者) appointment certificate to Prof. Lim Yoon Pin"
+              alt="Vice President Prof. Wang Qingqing presenting the appointment letter to Prof. Lim Yoon Pin"
               data-zoomable
               loading="eager"
             >
           </div>
           <figcaption class="ylp-gallery-caption">
             <i class="fa-solid fa-camera" aria-hidden="true"></i>
-            <span>Official Appointment Ceremony: Ningbo University Vice President <strong>Prof. Wang Qingqing</strong> presents the <strong>Bao Yu Gan Distinguished Professor (包玉刚学者)</strong> appointment certificate to <strong>Prof. Lim Yoon Pin</strong>.</span>
+            <span>Official Appointment Ceremony: Ningbo University Vice President <strong>Prof. Wang Qingqing</strong> presents the appointment letter to <strong>Prof. Lim Yoon Pin</strong>.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="ylp-gallery-item">
+          <div class="ylp-gallery-img-wrap">
+            <img
+              src="/assets/img/A2-talent.jpg"
+              alt="Prof. Lim Yoon Pin inducted as Bao Yu Gan Distinguished Professor and A2-level high-level talent at Ningbo University"
+              data-zoomable
+              loading="eager"
+            >
+          </div>
+          <figcaption class="ylp-gallery-caption">
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            <span>New Faculty Induction Ceremony: Formal induction of <strong>Prof. Lim Yoon Pin</strong> as <strong>A2-Level High-Level Talent</strong>.</span>
           </figcaption>
         </figure>
       </div>
     </article>
 
-    <!-- Post 2: March 6, 2026 -->
+    <!-- Post 3: May 2026 - Keynote Lecture at Ningbo International Spring Academic Conference -->
+    <article class="ylp-media-card" id="keynote-spring-conference-2026-05">
+      <div class="ylp-post-meta">
+        <div class="ylp-post-badges">
+          <span class="ylp-post-category">
+            <i class="fa-solid fa-microphone-lines" aria-hidden="true"></i> Keynote Lecture
+          </span>
+          <span class="ylp-post-highlight-badge">
+            <i class="fa-solid fa-globe" aria-hidden="true"></i> Frontiers of Oncology &amp; Immunology
+          </span>
+        </div>
+        <time class="ylp-post-date" datetime="2026-05-27">
+          <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> May 27–29, 2026
+        </time>
+      </div>
+
+      <h3 class="ylp-post-title">
+        Prof. Lim Yoon Pin Delivers Keynote Lecture at the 1st Ningbo International Spring Academic Conference on Frontiers of Oncology and Immunology
+      </h3>
+
+      <div class="ylp-post-body">
+        <p>
+          From May 27–29, 2026, Prof. Lim Yoon Pin served as a keynote speaker and delivered an invited plenary lecture at the 1st Ningbo International Spring Academic Conference on Frontiers of Oncology and Immunology, hosted by the Ningbo University (NBU) Health Science Center at the Ningbo Academician Center. Chaired by NBU Vice President Prof. Wang Qingqing, the landmark event gathered distinguished scholars from world-leading institutions including the University of Oxford, National University of Singapore (NUS), Seoul National University, KAIST, and the University of Macau to advance translational research in tumor immune escape, novel immunotherapeutic targets, and cellular microenvironments. Alongside keynote exchanges, the conference marked a major milestone for international and industry collaboration with the signing of a comprehensive medical research agreement between NBU Health Science Center and NUS’s Yong Loo Lin School of Medicine.
+        </p>
+      </div>
+
+      <!-- Photo Gallery (2 Images) -->
+      <div class="ylp-media-gallery">
+        <figure class="ylp-gallery-item">
+          <div class="ylp-gallery-img-wrap">
+            <img
+              src="/assets/img/keynote-1.jpg"
+              alt="Prof. Lim Yoon Pin delivering invited keynote plenary lecture at the 1st Ningbo International Spring Academic Conference on Frontiers of Oncology and Immunology"
+              data-zoomable
+              loading="eager"
+            >
+          </div>
+          <figcaption class="ylp-gallery-caption">
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            <span>Keynote Plenary Address: <strong>Prof. Lim Yoon Pin</strong> delivers an invited lecture on frontiers in translational oncology at the Ningbo Academician Center.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="ylp-gallery-item">
+          <div class="ylp-gallery-img-wrap">
+            <img
+              src="/assets/img/keynote-2.jpg"
+              alt="Distinguished international scholars, keynote speakers, and leadership gathered at the 1st Ningbo International Spring Academic Conference"
+              data-zoomable
+              loading="eager"
+            >
+          </div>
+          <figcaption class="ylp-gallery-caption">
+            <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            <span>International Collaboration &amp; Academic Exchange: Global scholars gathered to discuss tumor microenvironments and cross-institutional research initiatives.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Post 4: March 6, 2026 -->
     <article class="ylp-media-card" id="postdoc-completion-2026-03-06">
       <div class="ylp-post-meta">
         <div class="ylp-post-badges">
